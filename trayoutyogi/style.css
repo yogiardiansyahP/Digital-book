@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #242020;
+}
+
+.logo a{
+    color: white;
+    text-decoration: none;
+
+}
+
+.menu{
+    margin-right: 100px;
+}
+
+.container-navbar {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    margin: 20px;
+}
+
+.logo {
+    margin-right: 20px;
+}
+
+.links-navbar{
+display: flex;
+
+margin-left: 70em;
+}
+
+
+.container-category{
+    display: flex;
+    font-size: 25px;
+    color: white;
+    flex-direction: column;
+    margin-top: 30px;
+    font-family: 'Inter', sans-serif;
+}
+
+.category{
+    margin-bottom: 1em;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+}
+
+.book-biography{
+    margin: 40px 0px 0px 10em;
+    display: flex;
+}
+
+.book-fiction{
+    margin: 40px 0px 0px 10em;
+    display: flex;
+}
+
+.book-lesson{
+    margin: 40px 0px 0px 10em;
+    display: flex;
+}
+
+.book-biography img{
+    width: 5em;
+    height: auto ;
+    margin-left: 2em;
+    margin-bottom: 2em;
+}
+
+.book-lesson img{
+    width: 5em;
+    height: auto ;
+    margin-left: 2em;
+    margin-bottom: 2em;
+}
+
+.book-fiction img{
+    width: 5em;
+    height: auto ;
+    margin-left: 2em;
+    margin-bottom: 2em;
+}
+
+.category-biography{
+    margin-top:2em;
+}
+
+.dropdown .dropbtn {
+    font-size: 17px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 0 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    float: none;
+    color: black;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .organisasi-img > img{
+    display: block;
+    margin-top: 1em;
+    margin-left: 22em;
+    height: 20%;
+    width: 50%;
+  }
+
+  .pengumuman-img img{
+    display: inline-block;
+    margin-top: 8em;
+    margin-left: 8em;
+    height: 15%;
+    width: 40%;
+    border-radius: 10px;
+    box-shadow: 5px 10px 8px 10px #292929;
+  }
+  
+  .text-pengumuman {
+    position: absolute;
+    top: 35%;
+    left: 55%;
+    color: #fff;
+    font-size: 23px;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+
+  .tata-tertib {
+    display: flex;
+    color: white;
+    margin-top: 15em;
+    justify-content: center;
+  }
+
+  .faq{
+    max-width: 700px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #fff;
+    cursor: pointer;
+  }
+  
+  .question{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .question h3{
+    font-size: 1.8rem;
+  }
+  
+  .answer{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s ease;
+  }
+  
+  .answer p{
+    padding-top: 1rem;
+    line-height: 1.4;
+    font-size: 1.4rem;
+  }
+  
+  .faq.active .answer {
+    max-height: 300px;
+    animation: fade 1s ease-in-out;
+  }
+  
+  .faq.active svg {
+    transform: rotate(180deg);
+  }
+  
+  svg{
+    transition: transform 0.5s ease-in;
+  }
+
+  section {
+    font-family:'Times New Roman', Times, serif;
+    color: #fff;
+  }
+  
+  section{
+    margin-top: 10em;
+    margin-left: 9em;
+    min-height: 100vh;
+    width: 80%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text-berita img{
+    display: inline-block;
+    margin-top: 5em;
+    margin-left: 5em;
+    height: 40%;
+    width: 40%;
+    border-radius: 50px;
+    box-shadow: 5px 10px 8px 10px #292929;
+  }
+  
+  .content-berita{
+    position: absolute;
+      margin-top: 12rem;
+      margin-left: 45rem;
+      height: 3em;
+      width: 30em;
+      font-family: 'Roboto', sans-serif;
+      font-size: 50px;
+  }
+  
+  .book-biography-pinjam{
+    justify-content: center;
+    display: flex;
+    margin-top: 20em;
+  }
+
+  .buku-biography{
+    margin-right: 20px;
+    height: 5em;
+  }
